@@ -1,5 +1,10 @@
+using System.Collections;
+using Countries;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.VisualBasic;
 using MyLibrary;
+
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -44,6 +49,22 @@ app.MapGet("/weatherforecast", () =>
     return forecast;
 })
 .WithName("GetWeatherForecast")
+.WithOpenApi();
+
+
+
+app.MapGet("/getCountries", () =>
+{
+    // Your logic to get countries goes here
+    // For example, return a list of countries:
+
+        string newCountries= CountriesList.GetCountriesList();
+
+
+
+    return newCountries;
+})
+.WithName("GetCountries")
 .WithOpenApi();
 
 app.Run();

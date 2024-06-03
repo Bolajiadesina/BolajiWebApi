@@ -33,3 +33,6 @@
 /Users/user/Documents/c#-projects/BolajiWebApi/BolajiWebApi/obj/Debug/net8.0/ref/BolajiWebApi.dll
 /Users/user/Documents/c#-projects/BolajiWebApi/BolajiWebApi/bin/Debug/net8.0/MyLibrary/obj/MyLibrary.csproj.nuget.dgspec.json
 /Users/user/Documents/c#-projects/BolajiWebApi/BolajiWebApi/bin/Debug/net8.0/MyLibrary/obj/project.assets.json
+/Users/user/Documents/c#-projects/BolajiWebApi/BolajiWebApi/bin/Debug/net8.0/Countries/obj/Countries.csproj.nuget.dgspec.json
+/Users/user/Documents/c#-projects/BolajiWebApi/BolajiWebApi/bin/Debug/net8.0/Countries/obj/project.assets.json
+/Users/user/Documents/c#-projects/BolajiWebApi/BolajiWebApi/obj/Debug/net8.0/BolajiWebApi.sourcelink.json

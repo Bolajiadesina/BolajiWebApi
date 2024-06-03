@@ -4,3 +4,7 @@ GET {{BolajiWebApi_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###
+
+
+GET  {{BolajiWebApi_HostAddress}}/getCountries/
+Accept: application/json
